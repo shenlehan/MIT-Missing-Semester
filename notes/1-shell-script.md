@@ -27,7 +27,7 @@ echo $result
 
 ```bash
 echo $? # print the error code from the previous command
-cd $_ # change directory to the argument of last command, the '$_' will be replaced by the arguments from the last comm and 
+cd $_ # change directory to the argument of last command, the '$_' will be replaced by the arguments from the last command 
 ```
 
 In a script:
@@ -40,6 +40,7 @@ In a script:
 
 ```bash
 # $1 and $2 are like the "argv" in C
+echo $0 # the name of the script
 echo $1
 echo $2
 ```
@@ -127,3 +128,4 @@ echo $?
 * Logic operators like `&&` and `||`
 ![[Photos/Pasted image 20241113131429.png]]
 
+##### 
