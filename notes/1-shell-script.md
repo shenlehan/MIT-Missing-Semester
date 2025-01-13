@@ -173,6 +173,8 @@ You can also use `env`(a program) to find where the interpreter(here, `python`) 
 #!/usr/bin/env python
 ```
 
+
+### 2. Useful tools
 ##### k. use `tldr` or `man` to get explanation and examples of commands
 
 ##### l. use `find` to find a file/folder and execute something
