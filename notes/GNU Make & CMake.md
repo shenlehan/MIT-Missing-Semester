@@ -1,4 +1,4 @@
-> [The rules of writing a Makefile][https://seisman.github.io/how-to-write-makefile/rules.html]
+[The rules of writing a Makefile][https://seisman.github.io/how-to-write-makefile/rules.html]
 ### 1. The basic introduction to a `Makefile` document
 ```Makefile
 target ... : prerequisites ...
