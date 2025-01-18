@@ -15,6 +15,11 @@ For instance, the `SHA-1` hash function used in git.
 * non-invertible
 * collision-resistant
 
+For example, we have a file `doc.md`, we can use the SHA-1 function built in the terminal.
+```bash
+sha1sum doc.md
+```
+
 ### 3. Key derivation functions
 
 * Symmetric key cryptography
@@ -24,6 +29,15 @@ For instance, the `SHA-1` hash function used in git.
 ![[Photos/Pasted image 20250118161732.png]]
 
 * Salt value: a randomized value added to the encrypted hash value, in defense to the "rainbow table"
+
+A very famous symmetric encrypt algorithm is $\text{aes-256-cbc}$, in the terminal:
+```bash
+#get the encrypted file
+openssl aes-256-cbc -salt -in orginal -out orginal.enc
+# enter a passcode and get a encrypted file
+openssl aes-256-cbc -d -in orginal.enc -out orginal.dec
+#now orginal.dec is a decrypted file
+```
 
 ### 4. Asymmetric key cryptography
 
